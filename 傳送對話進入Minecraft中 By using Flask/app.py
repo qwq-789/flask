@@ -4,8 +4,8 @@ from mcpi.minecraft import Minecraft
 
 app = Flask(__name__)
 
-mc = Minecraft.create("203.72.59.38")
-name = " "
+mc = Minecraft.create()
+name = "error"
 
 @app.route("/", methods=['GET','POST'])
 def home():
