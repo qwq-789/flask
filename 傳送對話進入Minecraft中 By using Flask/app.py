@@ -5,7 +5,7 @@ from mcpi.minecraft import Minecraft
 app = Flask(__name__)
 
 mc = Minecraft.create()
-name = "error"
+name = "測試用名稱"
 
 @app.route("/", methods=['GET','POST'])
 def home():
